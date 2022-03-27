@@ -1,38 +1,53 @@
-import * as React from "react"
+import * as React from 'react';
 import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-} from "@chakra-ui/react"
-import { ColorModeSwitcher } from "./ColorModeSwitcher"
-import { Logo } from "./Logo"
+  Flex,
+  useColorModeValue,
+  useMediaQuery,
+} from '@chakra-ui/react';
+import SideBar from './components/SideBar';
+import Content from './components/Content';
+import { MotionFlex, itemAnimationX } from './components/Animation';
 
-export const App = () => (
-  <ChakraProvider theme={theme}>
-    <Box textAlign="center" fontSize="xl">
-      <Grid minH="100vh" p={3}>
-        <ColorModeSwitcher justifySelf="flex-end" />
-        <VStack spacing={8}>
-          <Logo h="40vmin" pointerEvents="none" />
-          <Text>
-            Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload.
-          </Text>
-          <Link
-            color="teal.500"
-            href="https://chakra-ui.com"
-            fontSize="2xl"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn Chakra
-          </Link>
-        </VStack>
-      </Grid>
-    </Box>
-  </ChakraProvider>
-)
+export const App = () => {
+  const [isLargerThan991] = useMediaQuery('(min-width: 992px)');
+
+  return (
+    <Flex
+      h={isLargerThan991 ? '100vh' : 'fit-content'}
+      bgGradient={useColorModeValue(
+        'linear(to-l, #92FE9D, #00C9FF)',
+        '#17191e',
+      )}>
+      <MotionFlex
+        w={'full'}
+        variants={itemAnimationX}
+        initial={'hidden'}
+        animate={'visible'}
+        m={'auto'}
+        maxW={isLargerThan991 ? 'inherit' : '760px'}
+        justifyContent={'center'}
+        direction={isLargerThan991 ? 'row' : 'column'}
+        gap={5}>
+        <SideBar
+          w={{ base: '100%', lg: '20%' }}
+          gap={4}
+          bg={useColorModeValue('white', '#0f1115')}
+          rounded={'2xl'}
+          boxShadow={'dark-lg'}
+          py={4}
+          minW={'20%'}
+          alignItems={'center'}
+          justifyContent={'space-between'}
+        />
+
+        <Content
+          w={{ base: '100%', lg: '70%' }}
+          maxH={'inherit'}
+          bg={useColorModeValue('white', '#0f1115')}
+          rounded={'2xl'}
+          boxShadow={'dark-lg'}
+        />
+      </MotionFlex>
+    </Flex>
+  );
+};
