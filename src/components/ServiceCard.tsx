@@ -6,7 +6,7 @@ import {
   Icon as ChakraIcon,
 } from '@chakra-ui/react';
 import React from 'react';
-import { Service } from '../Interfaces';
+import { Service } from '../app/models/Interfaces';
 import { MotionFlex, itemAnimationY } from './Animation';
 
 const ServiceCard = ({ Icon, title, about }: Service) => {

@@ -1,6 +1,6 @@
-import { Flex, Icon as ChakraIcon, useColorModeValue } from '@chakra-ui/react';
+import { Flex, Icon as ChakraIcon, useColorModeValue, Text } from '@chakra-ui/react';
 import React from 'react';
-import { Skill } from '../Interfaces';
+import { Skill } from '../app/models/Interfaces';
 import { MotionFlex } from './Animation';
 
 const Bar = ({ Icon, name, level }: Skill) => {
@@ -18,6 +18,7 @@ const Bar = ({ Icon, name, level }: Skill) => {
         stifness: 100,
       },
     },
+    
   };
   return (
     <Flex
@@ -36,7 +37,7 @@ const Bar = ({ Icon, name, level }: Skill) => {
         w={barWidth}
         rounded={'full'}
         bgGradient={'linear(to-l, #92FE9D, #00C9FF)'}>
-        <ChakraIcon my={'auto'} as={Icon} /> {name}
+        <ChakraIcon my={'auto'} as={Icon} /> <Text>{name}</Text>
       </MotionFlex>
     </Flex>
   );
