@@ -91,7 +91,7 @@ const resumePanelData: ResumePanelData = {
 const projectPanelData: Project[] = [
   {
     name: 'Reactivites Platform',
-    description: 'A social media platform where users can register, login, add, share ,edit and attend events, follow each other, and personalise their profiles.',
+    description: 'A social media platform where users can register, login, add, share ,edit and attend events, follow each other, and personalise their profiles. Hint* log in using the following information : bob@test.com, Pa$$w0rd',
     imagePath: '/images/ReactivitesPlatform.png',
     deployedUrl: 'https://reactivitiesplatform.herokuapp.com/',
     githubUrl: 'https://github.com/JesserD/Reactivities-Platform',
