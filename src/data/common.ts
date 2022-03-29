@@ -18,7 +18,7 @@ export const languagesAndFrameworks: Skill[] = [
     level: '60',
   },
   {
-    Icon: SiCsharp,
+    Icon: SiDotNet,
     name: '.NET',
     level: '60',
   },
