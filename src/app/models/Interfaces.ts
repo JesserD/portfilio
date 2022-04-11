@@ -39,7 +39,7 @@ export interface ResumeSection {
 }
 
 
-export interface PanelData {
+export interface AppData {
   sideBarData: SideBarData;
   tabListItems: string[];
   aboutPanelData: AboutPanelData;

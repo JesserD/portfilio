@@ -2,7 +2,7 @@ import { RiComputerLine } from 'react-icons/ri';
 import { FaDev, FaServer } from 'react-icons/fa';
 import { GiBookCover } from 'react-icons/gi';
 import { BsFillPersonFill } from 'react-icons/bs';
-import { PanelData, Project, ResumePanelData, ResumeSection, Service, SideBarData } from '../app/models/Interfaces';
+import { AppData, Project, ResumePanelData, ResumeSection, Service, SideBarData } from '../app/models/Interfaces';
 import { languagesAndFrameworks } from './common';
 
 const services: Service[] = [
@@ -38,7 +38,7 @@ const resumeSections: ResumeSection[] = [
     sectionName: 'Utbildning',
     title: 'Högskoleingenjörsprogram i datateknik, 180hp',
     subTitle: 'Kungliga Tekniska Högskolan (2018 - 2022)',
-    description: 'Jag är nära att ta examen',
+    description: '',
     link: 'https://www.kth.se/utbildning/hogskoleingenjor/datateknik-flemingsberg',
     image: '/logoKth.png'
   },
@@ -105,7 +105,7 @@ const projectPanelData: Project[] = [
   },
 ];
 
-const panelDataSwedish: PanelData = {
+const panelDataSwedish: AppData = {
   sideBarData,
   tabListItems,
   aboutPanelData,

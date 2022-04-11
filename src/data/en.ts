@@ -4,7 +4,7 @@ import { GiBookCover } from 'react-icons/gi';
 import { BsFillPersonFill } from 'react-icons/bs';
 import {
   AboutPanelData,
-  PanelData,
+  AppData,
   Project,
   ResumePanelData,
   ResumeSection,
@@ -48,7 +48,7 @@ const resumeSections: ResumeSection[] = [
     sectionName: 'Education',
     title: 'Bachelor of Engineering in Computer Engineering, 180 credits',
     subTitle: 'KTH Royal Institute Of Technology (2018 - 2022)',
-    description: "I'm about to graduate", // eslint-disable-line
+    description: "", // eslint-disable-line
     link: 'https://www.kth.se/utbildning/hogskoleingenjor/datateknik-flemingsberg',
     image: '/logoKth.png'
   },
@@ -115,7 +115,7 @@ const projectPanelData: Project[] = [
   }
 ];
 
-const panelDataEnglish: PanelData = {
+const panelDataEnglish: AppData = {
   tabListItems,
   sideBarData,
   resumePanelData,

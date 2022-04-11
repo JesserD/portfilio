@@ -1,12 +1,12 @@
 import { makeAutoObservable, reaction } from 'mobx';
-import { PanelData } from '../models/Interfaces';
+import { AppData } from '../models/Interfaces';
 import { Langauge } from '../models/Language';
 import DataEnglish from '../../data/en';
 import DataSwedish from '../../data/sv';
 
 export default class commonStore {
   selectedLangauge: Langauge = window.localStorage.getItem('language') === Langauge.Swedish ? Langauge.Swedish : Langauge.English;
-  data: PanelData = DataEnglish;
+  data: AppData = DataEnglish;
 
   constructor() {
     window.document.title = window.document.title + ' | ' + this.data.sideBarData.name + ' ' + this.data.sideBarData.surname;
