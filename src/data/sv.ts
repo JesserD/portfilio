@@ -96,6 +96,14 @@ const projectPanelData: Project[] = [
     keyTechs: ['ASP.NET 3.1 Core MVC', 'MS SQL', 'Entity Framework', '.Net Core Identity', 'MVVM'],
   },
   {
+    name: 'BSport+',
+    description:'En portal för fysiska aktiviteter avsedd för personer med funktionsnedsättning',
+    imagePath: '/images/BSportPlus.png',
+    deployedUrl: 'https://bsportplus.herokuapp.com/capacitybuilding/',
+    githubUrl: 'https://github.com/JesserD/bsportplus',
+    keyTechs: ['TypeScript', 'React.js', 'Chakra UI', 'Framer Motion'],
+  },
+  {
     name: 'Portfilio',
     description:'En portföljapplikation',
     imagePath: '/images/portfilio.png',
