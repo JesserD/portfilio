@@ -39,7 +39,7 @@ const services: Service[] = [
     Icon: BsFillPersonFill,
     title: 'Personal Characteristics',
     about:
-      'I am happy to give my clients suggestions on how their IT-related problems can be solved and adapt my speech to their IT knowledge level',
+      'I am happy to give my clients suggestions on how their IT-related problems can be solved and adapt my speech to suit their IT knowledge level',
   },
 ];
 
