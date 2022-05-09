@@ -22,13 +22,13 @@ const services: Service[] = [
     Icon: GiBookCover,
     title: 'Personlig utveckling',
     about:
-      'Jag är angelägen om att hålla mig uppdaterad om de senaste teknikerna inom webbutvecklingsområdet',
+      'Jag är angelägen om att hålla mig uppdaterad på de senaste teknikerna inom webbutvecklingsområdet',
   },
   {
     Icon: BsFillPersonFill,
     title: 'Personlighetsdrag',
     about:
-      'Jag har tålamod nog att arbeta med datorn tills jag löser det problem jag har',
+      'Jag ger gärna mina kunder förslag på hur deras IT-relaterade problem kan lösas och anpassar mitt tal till deras IT-kunskapsnivå',
   },
 ];
 
@@ -97,7 +97,7 @@ const projectPanelData: Project[] = [
   },
   {
     name: 'BSport+',
-    description:'En portal för fysiska aktiviteter avsedd för personer med funktionsnedsättning',
+    description:'En portal för fysiska aktiviteter avsedda för personer med funktionsnedsättning',
     imagePath: '/images/BSportPlus.png',
     deployedUrl: 'https://bsportplus.herokuapp.com/capacitybuilding/',
     githubUrl: 'https://github.com/JesserD/bsportplus',
