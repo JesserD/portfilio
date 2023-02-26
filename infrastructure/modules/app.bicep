@@ -31,6 +31,7 @@ resource appServiceApp 'Microsoft.Web/sites@2021-02-01' = {
       ftpsState: 'Disabled'
       http20Enabled: true
       minTlsVersion: '1.2'
+      appCommandLine: 'pm2 serve /home/site/wwwroot --no-daemon --spa'
       ipSecurityRestrictions: [
         {
           name: 'Open access'

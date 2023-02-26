@@ -38,10 +38,8 @@ jobs:
 
     - name: Create Azure Resources
       run: |
-        az group create --name $AZURE_RESOURCE_GROUP --location westeurope
+        az group create --name $AZURE_RESOURCE_GROUP --location westeurope --managed-by IAC
         az deployment group create --resource-group $AZURE_RESOURCE_GROUP --template-file infrastructure/main.bicep --parameters appName=$AZURE_WEBAPP_NAME appServicePlanName=$AZURE_APPSERVICEPLAN_NAME
-    - name: check folders 
-      run: ls
 
     - name: Deploy to Azure App Service
       uses: azure/webapps-deploy@v2
