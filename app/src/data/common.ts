@@ -4,9 +4,10 @@ import {
   SiCsharp,
   SiTypescript,
   SiVisualstudiocode,
-  SiW3C,
   SiDocker,
   SiDotNet,
+  SiMicrosoftazure,
+  SiAzuredevops,
 } from 'react-icons/si';
 import { GrReactjs } from 'react-icons/gr';
 import { Skill } from '../app/models/Interfaces';
@@ -28,8 +29,8 @@ export const languagesAndFrameworks: Skill[] = [
     level: '50',
   },
   {
-    Icon: SiDotNet,
-    name: 'IdentityCore',
+    Icon: SiMicrosoftazure,
+    name: 'Microsoft Azure',
     level: '45',
   },
   {
@@ -67,13 +68,13 @@ export const tools: Skill[] = [
   },
   {
     Icon: AiOutlineGithub,
-    name: 'Git',
+    name: 'GitHub',
     level: '40',
   },
   {
-    Icon: SiW3C,
-    name: 'WCAG',
-    level: '50',
+    Icon: SiAzuredevops,
+    name: 'Azure DevOps',
+    level: '45',
   },
   {
     Icon: SiDocker,
