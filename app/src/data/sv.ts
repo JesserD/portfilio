@@ -9,26 +9,22 @@ const services: Service[] = [
   {
     Icon: RiComputerLine,
     title: 'Frontend-utveckling',
-    about:
-      'Jag kan bygga responsiva tillgängliga grafiska användargränssnitt med hjälp av React.js, TypeScript och Chakra-UI',
+    about: 'Jag kan bygga moderna responsiva webbaserade grafiska användargränssnitt med hjälp av React.js, TypeScript och Chakra UI',
   },
   {
     Icon: FaServer,
     title: 'Backend-utveckling',
-    about:
-      'Jag kan hantera relationsdatabaser, affärslogik och API-slutpunkter med hjälp av .NET och dess populära ramverk',
+    about: 'Jag kan bygga API:er och utveckla integrationer mellan IT-system med hjälp av .NET',
   },
   {
     Icon: GiBookCover,
     title: 'Personlig utveckling',
-    about:
-      'Jag är angelägen om att hålla mig uppdaterad på de senaste teknikerna inom webbutvecklingsområdet',
+    about: 'Jag är angelägen om att hålla mig uppdaterad på de senaste teknikerna inom webbutvecklingsområdet',
   },
   {
     Icon: BsFillPersonFill,
     title: 'Personlighetsdrag',
-    about:
-      'Jag ger gärna mina kunder förslag på hur deras IT-relaterade problem kan lösas och anpassar mitt tal till deras IT-kunskapsnivå',
+    about: 'Jag ger gärna mina kunder förslag på hur deras IT-relaterade problem kan lösas och anpassar mitt tal till deras IT-kunskapsnivå',
   },
 ];
 
@@ -55,7 +51,7 @@ const sideBarData: SideBarData = {
   photo: '/images/jesserPhoto.jpg',
   name: 'Jesser',
   surname: 'Daa',
-  title: 'Webbutvecklare',
+  title: 'Systemutvecklare',
   buttonContent: 'Hämta CV',
   resourceHref: '/assets/Jesser Daa Resume.pdf',
   location: 'Stockholm, Sverige',
@@ -68,7 +64,7 @@ const tabListItems = ['Om', 'CV', 'Andra Kompetenser', 'Projekt'];
 
 const aboutPanelData = {
   description:
-    'Min resa med programmering började 2018 då jag arbetade med många universitets- och hobbyprojekt. Jag använde många programmeringsspråk och ramverk, men under det senaste året har jag arbetat mestadels med .NET och React.js.',
+    'Jag är systemutvecklare som har programmerat sedan 2018. Jag har utvecklat mina kunskaper inom programmering genom att både förstå de vanligaste teoretiska begreppen inom IT-området och skaffa mig praktisk erfarenhet genom att arbeta med massor av IT-projekt.',
   introToServices: 'Vad jag kan göra :',
   services: services,
 };

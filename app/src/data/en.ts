@@ -21,13 +21,13 @@ const services: Service[] = [
     Icon: RiComputerLine,
     title: 'Frontend Development',
     about:
-      'I can build responsive accessible graphical user interfaces using React.js, TypeScript, and Chakra UI',
+      'I can build modern responsive web-based graphical user interfaces using React.js, TypeScript, and Chakra UI',
   },
   {
     Icon: FaServer,
     title: 'Backend  Development',
     about:
-      'I can handle relational databases, business logic, and API endpoints using .NET & its popular frameworks',
+      'I can build APIs and develope integrations between IT-systems using .NET',
   },
   {
     Icon: GiBookCover,
@@ -39,16 +39,16 @@ const services: Service[] = [
     Icon: BsFillPersonFill,
     title: 'Personal Characteristics',
     about:
-      'I am happy to give my clients suggestions on how their IT-related problems can be solved and adapt my speech to suit their IT knowledge level',
+      'I am happy to give my clients suggestions on how their IT-related problems can be solved and adapt my speech to their IT knowledge level',
   },
 ];
 
 const resumeSections: ResumeSection[] = [
   {
     sectionName: 'Education',
-    title: 'Bachelor of Engineering in Computer Engineering, 180 credits',
+    title: 'Bachelor of Science in Computer Engineering, 180 credits',
     subTitle: 'KTH Royal Institute Of Technology (2018 - 2022)',
-    description: "", // eslint-disable-line
+    description: '',
     link: 'https://www.kth.se/utbildning/hogskoleingenjor/datateknik-flemingsberg',
     image: '/logoKth.png'
   },
@@ -65,7 +65,7 @@ const sideBarData: SideBarData = {
   photo: '/images/jesserPhoto.jpg',
   name: 'Jesser',
   surname: 'Daa',
-  title: 'Web Developer',
+  title: 'Software Developer',
   buttonContent: 'Download CV',
   resourceHref: '/assets/Jesser Daa Resume.pdf',
   location: 'Stockholm, Sweden',
@@ -77,8 +77,7 @@ const sideBarData: SideBarData = {
 const tabListItems = ['About', 'Resume', 'Other Skills', 'Projects'];
 
 const aboutPanelData: AboutPanelData = {
-  description:
-    'My journey with programming started in 2018 as I worked with many university and hobby projects. I used many programming languages and frameworks, but over the past year I have mostly worked with .NET and React.js',
+  description:'I am a software developer who has been programming since 2018. I have developed my programming skills by both understanding the most common theoretical concepts of the software field and aquring the practical experience by working on lots of IT-projects.',
   introToServices: 'What I can do :',
   services: services,
 };
