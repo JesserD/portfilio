@@ -83,7 +83,7 @@ const projectPanelData: Project[] = [
     name: 'Reactivites Platform',
     description: 'En social medieplattform där användare kan registrera sig, logga in, lägga till, dela, redigera och delta i evenemang, följa varandra och skräddarsy sina konton efter smak. Tips* logga in med följande användaruppgifter : bob@test.com, Pa$$w0rd',
     imagePath: '/images/ReactivitesPlatform.png',
-    deployedUrl: 'https://reactivitiesplatform.herokuapp.com/',
+    deployedUrl: 'https://app-dev-reactivities.azurewebsites.net/',
     githubUrl: 'https://github.com/JesserD/Reactivities-Platform',
     keyTechs: ['.NET 6', 'Postgre SQL', 'Entity Framework', '.Net Core Identity', 'SignalR', 'TypeScript', 'React.js', 'MobX.js', 'Axios.js', 'Chakra UI']
   },
