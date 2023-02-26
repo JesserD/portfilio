@@ -38,7 +38,7 @@ jobs:
 
     - name: Create Azure Resources
       run: |
-        az group create --name $AZURE_RESOURCE_GROUP --location northeurope
+        az group create --name $AZURE_RESOURCE_GROUP --location westeurope
         az deployment group create --resource-group $AZURE_RESOURCE_GROUP --template-file infrastructure/main.bicep --parameters appName=$AZURE_WEBAPP_NAME appServicePlanName=$AZURE_APPSERVICEPLAN_NAME
     - name: check folders 
       run: ls
