@@ -81,7 +81,15 @@ const projectPanelData: Project[] = [
     imagePath: '/images/ReactivitesPlatform.png',
     deployedUrl: 'https://app-dev-reactivities.azurewebsites.net/',
     githubUrl: 'https://github.com/JesserD/Reactivities-Platform',
-    keyTechs: ['.NET 6', 'Postgre SQL', 'Entity Framework', '.Net Core Identity', 'SignalR', 'TypeScript', 'React.js', 'MobX.js', 'Axios.js', 'Chakra UI']
+    keyTechs: ['.NET 6', 'SQLite', 'Entity Framework', '.Net Core Identity', 'SignalR', 'TypeScript', 'React.js', 'MobX.js', 'Axios.js', 'Chakra UI']
+  },
+  {
+    name: 'WhatsApp Clone',
+    description: 'En centraliserad snabbmeddelandetjänst där användare kan registrera sig, logga in och sms:a varandra i realtid. Tips* logga in med följande användaruppgifter : bob@test.com, Pa$$w0rd',
+    imagePath: '/images/WhatsAppClone.png',
+    deployedUrl: 'https://app-dev-whatsappclone.azurewebsites.net/',
+    githubUrl: 'https://github.com/JesserD/WhatsAppClone',
+    keyTechs: ['.NET 7', 'SQLite', 'Entity Framework', '.Net Core Identity', 'SignalR', 'TypeScript', 'React.js', 'MobX.js', 'Axios.js', 'Chakra UI']
   },
   {
     name: 'Community',
