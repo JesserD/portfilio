@@ -40,9 +40,9 @@ const resumeSections: ResumeSection[] = [
   },
   {
     sectionName: 'Intresseområde',
-    title: 'Fullstack-webbutveckling',
-    subTitle: '.NET & React.js',
-    description: 'Jag ser fram emot att göra fler projekt i .NET och React.js',
+    title: 'Fullstack-systemutveckling, Cloud & DevOps',
+    subTitle: '.NET, React.js, automatisering & Azure',
+    description: '',
     image: FaDev
   }
 ];

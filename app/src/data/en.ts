@@ -54,9 +54,9 @@ const resumeSections: ResumeSection[] = [
   },
   {
     sectionName: 'Field Of Interest',
-    title: 'Fullstack Web Development',
-    subTitle: '.NET & React.js',
-    description: 'I look forward to doing more projects using .NET and React.js',
+    title: 'Fullstack Development, Cloud & DevOps',
+    subTitle: '.NET, React.js, automation & Azure',
+    description: '',
     image: FaDev
   }
 ];
