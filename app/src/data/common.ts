@@ -16,22 +16,22 @@ export const languagesAndFrameworks: Skill[] = [
   {
     Icon: SiCsharp,
     name: 'C#',
-    level: '60',
+    level: '80',
   },
   {
     Icon: SiDotNet,
     name: '.NET',
-    level: '60',
+    level: '80',
   },
   {
     Icon: SiDotNet,
     name: 'EntityFramework',
-    level: '50',
+    level: '70',
   },
   {
     Icon: SiMicrosoftazure,
     name: 'Microsoft Azure',
-    level: '45',
+    level: '70',
   },
   {
     Icon: SiTypescript,
@@ -41,7 +41,7 @@ export const languagesAndFrameworks: Skill[] = [
   {
     Icon: GrReactjs,
     name: 'React.js',
-    level: '70',
+    level: '90',
   },
   {
     Icon: BsCircleFill,
@@ -69,16 +69,16 @@ export const tools: Skill[] = [
   {
     Icon: AiOutlineGithub,
     name: 'GitHub',
-    level: '40',
+    level: '70',
   },
   {
     Icon: SiAzuredevops,
     name: 'Azure DevOps',
-    level: '45',
+    level: '85',
   },
   {
     Icon: SiDocker,
     name: 'Docker',
-    level: '35',
+    level: '70',
   },
 ];
